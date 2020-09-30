@@ -445,17 +445,15 @@ p {
 
 
 .suit__img {
-	position: absolute;
-	top: -20%;
+	position: relative;
 	
 	
 	z-index: 1;
 	
-		flex-direction: column;
+    flex-direction: column;
 	
-	height: 450px;
-	padding-top: 100px;
-	
+    min-width: 450px;
+    padding: 5px;	
 	background-size: cover;
 }
 	
